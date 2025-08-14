@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chord ID Training</title>
+</head>
+<body>
+  <h1>Chord Progression Ear Training</h1>
+  <button onclick="nextAudio()">Next</button>
+  <button onclick="playAudio()">Play Again</button>
+  <button onclick="showAnswer()">Show Answer</button>
+  <br><br>
+  <audio id="audio" controls></audio>
+  <div id="answer"></div>
+  <div id="status"></div>
+  <button onclick="reportResult(true)">I got it right</button>
+  <button onclick="reportResult(false)">I got it wrong</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
